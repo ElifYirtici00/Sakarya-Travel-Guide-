@@ -1,0 +1,66 @@
+
+#gezi-yerleri {
+    padding: 1rem;
+     margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: rgb(38, 38, 38);
+}
+
+#gezi-yerleri h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+.location-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.location {
+    border: 2px solid rgb(38, 38, 38);
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgb(38, 38, 38);
+    transition: border-color 0.3s ease;
+}
+
+.location h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.location p {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+}
+
+
+.accessible {
+    border-color: #28a745;
+    color: white;
+
+}
+
+.inaccessible {
+    border-color: #dc3545;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #gezi-yerleri {
+        padding: 0.5rem;
+    }
+
+    .location h3 {
+        font-size: 1.2rem;
+    }
+
+    .location p {
+        font-size: 0.9rem;
+    }
+}

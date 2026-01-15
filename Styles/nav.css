@@ -1,0 +1,56 @@
+.topNavBar{    
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    height: 100px;
+    width: 100%;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 2px 2px 10px 10px rgb(70, 70, 70);
+}
+
+.topNavBar .topNavBarBox:hover .topNavBarText {
+  color: orange;
+  transform: scale(1.1);
+}
+
+.topNavBarText{
+    color: rgb(227, 227, 227);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.topNavBarBox{
+    display: flex;
+    width: auto;
+    height: 40px;
+    padding: 0 15px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topNavBarBoxTotal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    gap: 10px;
+    color: white;
+}
+
+.topNavBarBoxTotal a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.topNavBar img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
