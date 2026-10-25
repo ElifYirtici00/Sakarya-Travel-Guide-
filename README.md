@@ -78,10 +78,10 @@ It features:
 ## Requirements Part
 
 ### 1. **User Research & Domain Analysis**
-#### Techniques Used:
-- **Observation**: Studied tourist behavior on travel websites to identify key information needs (e.g., ratings, activity lists).  
-- **Surveys**: Distributed questionnaires to potential users to prioritize features (e.g., "nature activities" ranked highest).  
-- **Interviews**: Conducted informal interviews with locals to gather cultural and practical insights.  
+## 🛠️ Built With
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
 #### User Profile:
 - **Primary Users**: Tourists (local/international), ages 18–65.  
